@@ -2,7 +2,7 @@ class Words
   def find_and_replace(word, replacement)
     # @word = word
     # @replacement = replacement
-    sentence = "Hello weird"
+    sentence = "Hello world"
     sentence.sub! word, replacement
   end
 end
