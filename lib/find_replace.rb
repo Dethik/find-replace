@@ -2,8 +2,8 @@ class Words
   def find_and_replace(word, replacement)
     # @word = word
     # @replacement = replacement
-    sentence = "Hello world"
-    sentence.sub! word, replacement
+    sentence = "take my mouse to the mousehedral"
+    sentence.gsub! word, replacement
   end
 end
 
