@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
-require('find_replace')
+require('./lib/find_replace')
 
 puts "Find and replace"
-sentence = Words.new()
-print sentence.find_and_replace
+replace = Words.new()
+print replace.find_and_replace(gets.chomp, gets.chomp)
 puts
 puts
